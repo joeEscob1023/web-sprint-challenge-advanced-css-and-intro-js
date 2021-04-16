@@ -278,7 +278,7 @@ function get20s(array) {
  
  For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
-//I cant figure out how to keep the index and id the same when one of the artists is deleted. it works once and the index and ids dont add up.
+//I cant figure out how to keep the index and id the same when one of the artists is deleted. it works once and then the index and ids dont add up.
 function removeArtist(array, index) {
   for (let i = 0; i < array.length; i++) {
     if (array[i].id === index) {
